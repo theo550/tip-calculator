@@ -1,0 +1,199 @@
+h1{
+  color: rgb(36, 83, 76);
+
+  text-transform: uppercase;
+
+  letter-spacing: 10px;
+
+  font-size: 1.3rem;
+}
+
+.container{
+  background-color: #fff;
+
+  height: 400px;
+  width: 800px;
+
+  margin-top: 50px;
+
+  border-radius: 20px;
+
+  display: flex;
+  justify-content: space-between;
+
+  padding: 30px;
+}
+
+.left, .right{
+  width: 50%;
+
+  border-radius: 20px;
+}
+
+.right{
+  background-color: rgb(0, 88, 88);
+
+  padding: 30px 30px 0 30px;
+}
+
+.left{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  padding-top: 25px;
+  
+  position: relative;
+}
+
+.input{
+  width: 85%;
+  height: 40px;
+
+  border: none;
+  border-radius: 0;
+
+  background-color: rgba(192, 226, 226, 0.247);
+
+  margin: 10px 0;
+
+  text-align: right;
+
+  padding-right: 50px;
+
+  outline: none;
+
+  font-size: 1.3rem;
+  color: rgb(129, 153, 153);
+}
+
+.tips{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  width: 85%;
+
+  margin: 10px 0;
+}
+
+.tip-amount{
+  width: 30%;
+  height: 35px;
+
+  margin: 5px;
+
+  background-color: rgb(0, 88, 88);
+
+  color: rgb(192, 226, 226);
+  font-weight: bolder;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  cursor: pointer;
+
+  border-radius: 5px;
+}
+
+.tip-amount:hover{
+  background-color: rgb(0, 44, 44);
+}
+
+.custom{
+  background-color: rgba(192, 226, 226, 0.247);
+  color: rgb(0, 88, 88);
+
+  border: none;
+
+  text-align: center;
+
+  outline: none;
+}
+
+.custom:hover{
+  background-color: rgba(152, 180, 180, 0.247);
+
+}
+
+.total{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  margin: 20px 0;
+
+  color: white;
+}
+
+.text{
+  text-align: left;
+
+  font-size: .8rem;
+}
+
+.text p{
+  color: rgba(255, 255, 255, 0.521);
+}
+
+.total-tips{
+  font-size: 2.5rem;
+  font-weight: bolder;
+
+  color: rgb(47, 197, 152);
+}
+
+.reset{
+  margin-top: 10px;
+
+  width: 85%;
+  height: 40px;
+
+  text-transform: uppercase;
+
+  cursor: pointer;
+
+  background-color: rgb(22, 184, 184);
+  color: rgba(255, 255, 255, 0.493);
+
+  font-weight: bolder;
+  font-size: 1rem;
+
+  border: none;
+}
+
+.reset:hover{
+  background-color: rgb(18, 143, 143);
+}
+
+.user{
+  position: absolute;
+
+  bottom: 32px;
+  left: 15px;
+
+  color: rgb(158, 187, 187);
+}
+
+.dollar{
+  position: absolute;
+
+  top: 72px;
+  left: 15px;
+
+  color: rgb(158, 187, 187);
+}
+
+
+.total-amount{
+  margin: 15px 0;
+}
+
+.total-amount p:nth-child(2){
+  color: rgba(255, 255, 255, 0.521);
+}
+
+.total-amount .total-tips{
+  font-size: 1.6rem;
+}
